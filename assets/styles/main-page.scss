@@ -1,0 +1,8 @@
+.main-page {
+	margin: 40px;
+}
+.response-list {
+	& > * + * {
+		margin-top: 24px;
+	}
+}
